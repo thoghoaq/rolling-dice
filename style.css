@@ -1,0 +1,48 @@
+body {
+    background-color: #131B2B;
+}
+
+label {
+    color: #EBF3FB;
+}
+
+.input,
+h1 {
+    display: relative;
+    text-align: center;
+    color: #EBB34B;
+}
+
+button {
+    margin-top: 1em;
+}
+
+#output {
+    color: #EBF3FB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4em auto;
+    width: 100%;
+    max-width: 800px;
+    gap: 2em;
+}
+
+.dice {
+    display: grid;
+    place-items: center;
+    border: 4px solid;
+    border-radius: 0.5em;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#sum,
+#sum-text {
+    margin-top: 1em;
+    color: #EBF3FB;
+    font-size: 2em;
+    text-align: center;
+}
